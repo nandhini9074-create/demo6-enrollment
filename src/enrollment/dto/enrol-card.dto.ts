@@ -53,7 +53,7 @@ export class EnrollCardDto {
 
   @IsNotEmpty()
   @IsString()
-  schemeUserId: string;
+  schemeUserId: int;
 
   @IsArray()
   @IsNotEmpty()
