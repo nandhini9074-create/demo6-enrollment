@@ -27,7 +27,7 @@ export class SupplementaryCardDto {
 export class CardDetailsDto {
   @IsNotEmpty()
   @IsString()
-  cardId: string;
+  cardId: number;
 
   @IsNotEmpty()
   @IsString()
