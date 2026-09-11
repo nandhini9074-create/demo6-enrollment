@@ -49,7 +49,7 @@ export class CardDetailsDto {
 export class EnrollCardDto {
   @IsNotEmpty()
   @IsString()
-  customerId: string;
+  customerId: number;
 
   @IsNotEmpty()
   @IsString()
