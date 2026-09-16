@@ -31,7 +31,7 @@ export class CardDetailsDto {
 
   @IsNotEmpty()
   @IsString()
-  schemeCardId: string;
+  schemeCardId: number;
 
   @IsOptional()
   cardLast4?: number | string;
