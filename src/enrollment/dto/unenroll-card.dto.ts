@@ -11,14 +11,7 @@ export class UnenrollCardItemDto {
   @IsNotEmpty()
   mimojoCardId: string;
 
-  @ApiProperty({
-    description: 'Replacement Scheme Card ID (optional)',
-    example: 'cad51b9a-33a5-4dcd-949a-5c4a43d816d7',
-    required: false,
-  })
-  @IsOptional()
-  @IsString()
-  replaceSchemeCardId?: string;
+
 }
 
 
