@@ -17,8 +17,8 @@ export class UnenrollCardItemDto {
     required: false,
   })
   @IsOptional()
-  @IsNumber()
-  replaceSchemeCardId?: number;
+  @IsString()
+  replaceSchemeCardId?: string;
 }
 
 
